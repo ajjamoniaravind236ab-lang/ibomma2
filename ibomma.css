@@ -1,0 +1,126 @@
+
+        header{
+            text-align: center;
+            color:rgba(240, 248, 255, 0.767);
+            
+            top:0;
+            width: 100%;
+            
+
+            
+        background: repeating-linear-gradient(135deg,#2f2f2f,#2f2f2f 8px,#3a3a3a 8px,#3a3a3a 16px);   
+
+        }
+    button{
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+    body{
+        border: 5px dotted rgba(0, 0, 0, 0.275);
+        background-color: rgba(0, 0, 0, 0.533);
+        
+        
+    }
+    footer{
+        
+        
+        background-color:whitesmoke;
+    
+        color:rgba(245, 245, 245, 0.771);
+        position: fixed;
+        bottom: 0;
+        height: 1;
+        margin: 0px;
+        width: 100%;
+    }
+    video{
+        margin: 75px;
+    }
+    nav{
+        background-color: whitesmoke;
+        margin-top: 50px;
+        
+    }
+    main{
+        background-color: rgba(0, 0, 0, 0.486);
+        
+    }
+    .search-bar{
+        font-size: 1000px;
+        display: block;
+    }
+    .button{
+        cursor: pointer;
+        animation: zoom 2s linear infinite;
+        border: 0px;
+        background-color: red;
+        border-radius: 2px;
+    }
+    @keyframes zoom{
+        0%{
+            transform: scale(0);
+
+        }
+        50%{
+                        transform: scale(2);
+
+        }
+        100%{
+            
+                        transform: scale(0);
+        }
+    }
+    .button:hover{
+        background-color: aqua;
+    }
+    .button1{
+        border-radius: 20%;
+        background-color: aqua;
+        animation: zoom2 2s linear infinite;
+
+    }
+    .section{
+        height: 100px;;
+    }
+    input{
+        width:50%;
+        animation: zoom1 2s linear infinite ;
+    }
+    @keyframes zoom1{
+        from{transform:
+             translatex(0px);
+        }
+        to{
+transform: translatex(100px)
+        }
+    }
+    @keyframes zoom2{
+        from{transform:
+             translatex(0px);
+        }
+        to{
+transform: translatex(100px)
+        }
+    }
+    div{
+        
+        height:100px;
+        width:100px;
+        border: 5px #bcbbbb;
+        margin-left: 650px;
+        border-radius: 50%;
+        border-top: 5px solid white;
+        animation: loading 1s ease infinite;
+        
+    }
+    @keyframes loading{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    h1{
+        cursor: pointer;
+    }
